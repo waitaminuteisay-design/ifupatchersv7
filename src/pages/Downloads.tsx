@@ -17,7 +17,7 @@ import {
 
 export default function Downloads() {
   const handleDownload = () => {
-    window.open('https://cdn.discordapp.com/attachments/1415117034924282078/1415126157225099314/Ifu_Helpers.zip', '_blank');
+    window.open('https://ifuhelpers.github.io/IFU_Helpers.exe', '_blank');
   };
 
   return (
@@ -32,12 +32,11 @@ export default function Downloads() {
         </p>
       </div>
 
-      {/* Security Notice */}
-      <Alert className="mb-8 border-accent/20 bg-accent/5">
-        <Lock className="h-4 w-4 text-accent" />
+      {/* Technology Notice */}
+      <Alert className="mb-8 border-primary/20 bg-primary/5">
+        <Zap className="h-4 w-4 text-primary" />
         <AlertDescription>
-          <strong>Protection Anti-Bot :</strong> Pour éviter l'utilisation malveillante par des bots, 
-          l'archive ZIP est protégée par mot de passe. <strong>Mot de passe : AntiBot</strong>
+          <strong>Technologie S.N.A.K.E :</strong> Système de sauvegarde automatique qui créé un fichier .IFUSAVE chaque semaine pour une restauration système ultra-rapide et légère.
         </AlertDescription>
       </Alert>
 
@@ -53,10 +52,11 @@ export default function Downloads() {
               <CardDescription>
                 Version complète avec toutes les fonctionnalités d'optimisation
               </CardDescription>
-              <div className="flex justify-center gap-2 mt-4">
+                <div className="flex justify-center gap-2 mt-4">
                 <Badge variant="secondary">Windows 10/11</Badge>
                 <Badge variant="outline">64-bit</Badge>
                 <Badge className="bg-primary/20 text-primary">Gratuit</Badge>
+                <Badge className="bg-accent/20 text-accent">S.N.A.K.E</Badge>
               </div>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -66,7 +66,7 @@ export default function Downloads() {
                 className="w-full glow-effect text-lg"
               >
                 <Download className="mr-2 h-5 w-5" />
-                Télécharger IFU Helpers (ZIP protégé)
+                Télécharger IFU Helpers
               </Button>
               
               <div className="text-center text-sm text-muted-foreground">
@@ -76,8 +76,8 @@ export default function Downloads() {
               <Alert>
                 <Info className="h-4 w-4" />
                 <AlertDescription>
-                  <strong>Mot de passe de l'archive :</strong> AntiBot<br />
-                  <small>Nécessaire pour extraire les fichiers du ZIP téléchargé</small>
+                  <strong>Téléchargement direct :</strong> Exécutable prêt à l'emploi<br />
+                  <small>Hébergé sur GitHub Pages pour une sécurité maximale</small>
                 </AlertDescription>
               </Alert>
             </CardContent>
@@ -195,7 +195,7 @@ export default function Downloads() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Protection temps réel, scan malwares, firewall optimisé et protection des fichiers système importants
+                Protection temps réel, scan malwares, firewall optimisé et technologie S.N.A.K.E qui créé automatiquement un fichier .IFUSAVE chaque semaine pour restauration système légère
               </p>
             </CardContent>
           </Card>
@@ -234,8 +234,8 @@ export default function Downloads() {
             <li className="flex gap-3">
               <Badge variant="outline" className="min-w-6 h-6 flex items-center justify-center">2</Badge>
               <div>
-                <p className="font-medium">Extraire avec le mot de passe</p>
-                <p className="text-sm text-muted-foreground">Utilisez le mot de passe <strong>"AntiBot"</strong> pour décompresser le ZIP</p>
+                <p className="font-medium">Sauvegarder le fichier</p>
+                <p className="text-sm text-muted-foreground">L'exécutable est téléchargé directement depuis GitHub Pages</p>
               </div>
             </li>
             <li className="flex gap-3">
