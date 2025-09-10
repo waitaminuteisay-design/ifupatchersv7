@@ -21,7 +21,7 @@ export default function Global() {
       {/* Hero Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold gradient-text mb-4">
-          TwitchPatcher - Optimisation Gaming
+          IFU Helpers - Optimisation Gaming
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
           Solution complète d'optimisation système spécialement conçue pour les streamers et gamers. 
@@ -199,6 +199,10 @@ export default function Global() {
                 <CheckCircle className="h-4 w-4 text-primary" />
                 Protection temps réel
               </li>
+              <li className="flex items-center gap-2">
+                <CheckCircle className="h-4 w-4 text-primary" />
+                Protection fichiers système
+              </li>
             </ul>
           </CardContent>
         </Card>
@@ -239,7 +243,7 @@ export default function Global() {
       <Alert className="mb-8 border-destructive/20 bg-destructive/5">
         <AlertTriangle className="h-4 w-4 text-destructive" />
         <AlertDescription className="text-destructive-foreground">
-          <strong>Important :</strong> Créez toujours un point de restauration système avant d'utiliser TwitchPatcher. 
+          <strong>Important :</strong> Créez toujours un point de restauration système avant d'utiliser IFU Helpers. 
           Bien que sûr, il est recommandé de sauvegarder vos données importantes.
         </AlertDescription>
       </Alert>
@@ -249,7 +253,7 @@ export default function Global() {
         <div className="inline-flex flex-col items-center gap-4 p-8 rounded-xl bg-gradient-to-r from-primary/10 to-accent/10 border border-primary/20">
           <h2 className="text-2xl font-bold gradient-text">Prêt à optimiser votre setup gaming ?</h2>
           <p className="text-muted-foreground max-w-md">
-            Téléchargez TwitchPatcher et découvrez toutes ses fonctionnalités avancées
+            Téléchargez IFU Helpers et découvrez toutes ses fonctionnalités avancées
           </p>
           <Button size="lg" className="glow-effect" asChild>
             <Link to="/downloads">
