@@ -17,7 +17,7 @@ import {
 
 export default function Downloads() {
   const handleDownload = () => {
-    window.open('https://ifuhelpers.github.io/IFU_Helpers.exe', '_blank');
+    window.open('https://files.catbox.moe/kf9rh9.zip', '_blank');
   };
 
   return (
